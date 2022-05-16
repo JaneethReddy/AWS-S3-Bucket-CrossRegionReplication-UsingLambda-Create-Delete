@@ -3,8 +3,8 @@ import time, urllib
 import json
 
 
-TARGET_BUCKET1 = 'datagrokr-destinationbucket-1'
-TARGET_BUCKET2 = 'datagrokr-destinationbucket2'
+TARGET_BUCKET1 = 'destinationbucket-1'
+TARGET_BUCKET2 = 'destinationbucket2'
 def lambda_handler(event, context):
     # # Get the bucket and object key from the Event
     # event = Json.loads()
